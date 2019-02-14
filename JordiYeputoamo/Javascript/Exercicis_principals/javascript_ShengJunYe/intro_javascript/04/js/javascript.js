@@ -1,0 +1,15 @@
+var a = parseInt(prompt("Valor a:",""));
+var b = parseInt(prompt("Valor b: ",""));
+document.write("La a val: "+a);
+document.write("<br>");
+document.write("La b val: "+b);
+document.write("<br>");
+document.write("Suma:"+(a+b));
+document.write("<br>");
+document.write("Resta:"+(a-b));
+document.write("<br>");
+document.write("Mult:"+(a*b));
+document.write("<br>");
+document.write("Div:"+(a/b));
+document.write("<br>");
+document.write("Mod:"+(a%b));

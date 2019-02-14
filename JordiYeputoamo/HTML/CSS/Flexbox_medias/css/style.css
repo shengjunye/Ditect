@@ -1,0 +1,63 @@
+/*Google Fonts*/
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 25px 50px;
+}
+header {
+  font-family: 'Fahkwang', sans-serif;
+}
+/*Flexbox princpial*/
+#principal article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#principal article div {
+  width: 450px;
+  margin-left: 25px;
+}
+/*Flexbox destacats*/
+#destacats{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#destacats article {
+  width: 300px;
+
+}
+#destacats article image {
+  width: 100%;
+}
+/*Read More Button*/
+.read-more a{
+  text-decoration: none;
+  background: gray;
+  color: white;
+  padding: 10px 20px;
+  transition: all .4s;
+}
+.read-more a:hover {
+  background: black;
+
+}
+
+@media (min-width: 801px){
+
+}
+
+
+
+
+/*Media Queries*/
+@media (max-width: 800px) {
+  #principal article {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #principal article div {
+    width: 100%;
+    margin-left: 0;
+  }
+}

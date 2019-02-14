@@ -1,0 +1,15 @@
+var a = 5;
+var b = 2;
+document.write("La a val: "+a);
+document.write("<br>");
+document.write("La b val: "+b);
+document.write("<br>");
+document.write("Suma:"+(a+b));
+document.write("<br>");
+document.write("Resta:"+(a-b));
+document.write("<br>");
+document.write("Mult:"+(a*b));
+document.write("<br>");
+document.write("Div:"+(a/b));
+document.write("<br>");
+document.write("Mod:"+(a%b));

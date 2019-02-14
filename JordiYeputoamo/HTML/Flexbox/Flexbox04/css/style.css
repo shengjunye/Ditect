@@ -1,0 +1,50 @@
+body{
+width: 90%;
+margin: auto;
+border: 1px solid black;
+}
+
+section {
+  border: 1px solid black;
+  width: 75%;
+  margin:auto;
+  /*Flexblox*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.contenidor {
+  border: 1px solid black;
+
+    /*Flexblox*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/*Media Queries*/
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}

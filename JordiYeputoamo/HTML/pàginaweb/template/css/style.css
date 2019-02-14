@@ -1,0 +1,97 @@
+* {
+  border: 1px solid black;
+}
+body {
+    width: 85%;
+  margin: auto;
+
+}
+header {
+  background-color:  	#00FFFF;
+}
+header .estetica{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.xarxes_socials {
+  display: flex;
+  align-items: flex-end;
+}
+#menu li{
+display: flex;
+flex-direction: row;
+}
+.menu button {
+  margin-left: 1.5px;
+  margin-right: 1.5px;
+  background-color: orange;
+}
+section {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.cataleg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cataleg img {
+  width: 30%;
+}
+.cataleg p {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.cataleg div {
+  display: flex;
+  flex-direction: row ;
+  flex-wrap: nowrap;
+}
+.biografia {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  /* {
+    border: 1px solid black;
+  }*/
+
+}
+.biografia img{
+  width: 85%;
+
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+/*Media Queries*/
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
