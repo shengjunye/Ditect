@@ -27,25 +27,24 @@
 <body>
 	<header></header>
 	<section>
-		<article>
-			<h2>Formulari Registre!</h2>
-			<form id="formulari" onsubmit="return funcio_final();">
-				<input type="text" class="name" onblur="funcio_nom()" placeholder="Introdueix el teu nom">
-				<p id="mname"></p>
-				<input type="text" class="Lastname" onblur="funcio_cognoms()" placeholder="Introdueix els teus cognoms">
-				<p id="mLastname"></p>
-				<input type="text" class="email" onblur="funcio_email()" placeholder="Introdueix el teu correu">
-				<p id="memail"></p>
-				<input type="text" class="Confirm_email" onblur="esemail()" placeholder="Torna a introduir el correu">
-				<p id="mConfirm_email"></p>
-				<input type="text" class="psswd" onblur="funpasswd()" placeholder="Introdueix la contrasenya">
-				<p id="mpsswd"></p>
-				<input type="text" class="Confirm_psswd" onblur="Confirm_psswd()" placeholder="Torna a introduir la contrasenya">
-				<p id="mConfirm_psswd"></p>
-				<input type="checkbox" class="Acceptar"> Accepto les condicions
-				<button type="submit" value="Enviar">Enviar</button>
-			</form>
-		</article>
+		<h2>Formulari Registre!</h2>
+		<form id="formulari" onsubmit="return funcio_final();">
+			<input type="text" id="name" onblur="funcio_nom()" placeholder="Introdueix el teu nom">
+			<p id="mname"></p>
+			<input type="text" id="Lastname" onblur="funcio_cognoms()" placeholder="Introdueix els teus cognoms">
+			<p id="mLastname"></p>
+			<input type="text" id="email" onblur="funcio_email()" placeholder="Introdueix el teu correu">
+			<p id="memail"></p>
+			<input type="text" id="esmail" placeholder="Torna a introduir el correu">
+			<p id="mesmail"></p>
+			<input type="text" id="fun_passwd" onblur="funcio_passwd()" placeholder="Introdueix la contrasenya">
+			<p id="mpasswd"></p>
+			<input type="text" id="espasswd" placeholder="Torna a introduir la contrasenya">
+			<p id="mespsswd"></p>
+			<input type="checkbox" id="Acceptar"> Accepto les condicions
+			<p id="macceptar"></p>
+			<button type="submit" value="Enviar">Enviar</button>
+		</form>
 	</section>
 	<footer></footer>
 </body>

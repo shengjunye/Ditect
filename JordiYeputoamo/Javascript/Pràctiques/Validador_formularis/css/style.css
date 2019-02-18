@@ -16,6 +16,10 @@ body {
   margin: auto;
   margin: 15%;
 }
+section {
+  align-items: center;
+}
+
 *{border:  1px solid black;}
 /*Media Queries*/
 /* Large desktops and laptops */
