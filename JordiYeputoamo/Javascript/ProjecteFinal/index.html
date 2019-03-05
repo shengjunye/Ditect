@@ -1,6 +1,7 @@
 ﻿<!doctype html>
 <html lang="es">
 <head>
+	<!--Barcelona API {307297}-->
 	<!-- Informació Meta -->
 	<meta charset="utf-8"/>
 	<meta name="description" content="Lorem Ipsum">
@@ -9,28 +10,45 @@
 	
 	<!-- Enllaç a l'arxiu CSS Extern -->
 	<link rel=stylesheet href="css/style.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+	<!--Bootstrap 4-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-	<!--CSS Intern-->
-	<style type="text/css">
-
-	</style>
-
-	<!-- Enllaç a Javascript Extern -->
-	<script  type="text/javascript" src="js/javascript.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 	<!-- favicon -->
-	<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+	<link href="img/sun.png" rel="icon" type="image/x-icon" />
 
 	<!-- Títol de la pàgina -->
-	<title>Títol de la pàgina</title>
+	<title>El temps fora de casa</title>
 </head>
 <body>
-	<header></header>
-	<section>
-		<article>
-			Lorem Ipsum
-		</article>
-	</section>
+	<header><h1>Quin temps fa avui?</h1></header>
+
+	<article>
+			<div class=".col-lg-">
+					<div class="dropdown">
+							<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+								Tria una ciutat
+							</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Mataró</a>
+								<a class="dropdown-item" href="#">Barcelona</a>
+								<a class="dropdown-item" href="#">Premia de mar</a>
+							</div>
+					</div> 
+			</div>
+
+	</article>
+
 	<footer></footer>
 </body>
+
+<!-- Enllaç a Javascript Extern -->
+<script  type="text/javascript" src="js/javascript.js"></script>
 </html>
