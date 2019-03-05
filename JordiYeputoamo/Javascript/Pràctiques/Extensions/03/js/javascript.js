@@ -7,9 +7,7 @@ am4core.useTheme(am4themes_animated);
 var chart = am4core.create("chartdiv", am4charts.XYChart);
 
 // Add data
-$.getJSON("js.poblacio.json", function(poblacio){
-  console.log(poblacio);
-});
+chart.dataSource.url = "js/poblacio.json";
 
 // Create axes
 
