@@ -11,16 +11,37 @@
 	<link rel=stylesheet href="css/style.css" type="text/css"/>
 
 	<!-- favicon -->
-	<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+	<link href="img/euro.png" rel="icon" type="image/x-icon" />
 
 	<!-- Títol de la pàgina -->
-	<title>Títol de la pàgina</title>
+	<title>Convertidor divises</title>
 </head>
 <body>
 	<header><h1>Convertidor EUR simple</h1></header>
-	<section>
-
-	</section>
+	<div id="convertidor">
+		<div id="pais">
+			
+			<select name="moneda" id="divises1">
+				<!--Omplir amb el javascript amb una funció-->
+				<option value="USD" id="dolar">USD</option>
+				<option value="JPY" id="yen">JPY</option>
+				<option value="GBP" id="libra">GBP</option>
+				<option value="CNY" id="yuan">CNY</option>
+			</select>
+			<button onclick="conversor()">GO!</button>
+			<select name="moneda" id="divises2">
+					<option value="USD" id="dolar">USD</option>
+					<option value="JPY" id="yen">JPY</option>
+					<option value="GBP" id="libra">GBP</option>
+					<option value="CNY" id="yuan">CNY</option>
+				</select>
+			
+		</div>
+		<div id="quantitat">
+				<input type="text" name="Entrada" id="importe" value="1">
+				<input type="text" name="Sortida" id="imports">
+		</div>
+	</div>
 </body>
 	<!--Jquery-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
